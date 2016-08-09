@@ -14,6 +14,7 @@
 		1F8D04A21D59A9BE00604E91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F8D04A01D59A9BE00604E91 /* LaunchScreen.storyboard */; };
 		1F8D04AD1D59A9BE00604E91 /* PUSHka_iOS_v0_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8D04AC1D59A9BE00604E91 /* PUSHka_iOS_v0_1Tests.swift */; };
 		1F8D04B81D59A9BE00604E91 /* PUSHka_iOS_v0_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8D04B71D59A9BE00604E91 /* PUSHka_iOS_v0_1UITests.swift */; };
+		1F8D04CA1D59BF6A00604E91 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8D04C91D59BF6A00604E91 /* APIManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		1F8D04B31D59A9BE00604E91 /* PUSHka_iOS_v0.1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PUSHka_iOS_v0.1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F8D04B71D59A9BE00604E91 /* PUSHka_iOS_v0_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PUSHka_iOS_v0_1UITests.swift; sourceTree = "<group>"; };
 		1F8D04B91D59A9BE00604E91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F8D04C91D59BF6A00604E91 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		1F8D04C51D59B76700604E91 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				1F8D04C91D59BF6A00604E91 /* APIManager.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F8D04CA1D59BF6A00604E91 /* APIManager.swift in Sources */,
 				1F8D049A1D59A9BE00604E91 /* ViewController.swift in Sources */,
 				1F8D04981D59A9BE00604E91 /* AppDelegate.swift in Sources */,
 			);
