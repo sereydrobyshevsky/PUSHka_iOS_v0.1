@@ -97,12 +97,10 @@
 		1F8D04961D59A9BE00604E91 /* PUSHka_iOS_v0.1 */ = {
 			isa = PBXGroup;
 			children = (
-				1F8D04971D59A9BE00604E91 /* AppDelegate.swift */,
-				1F8D04991D59A9BE00604E91 /* ViewController.swift */,
-				1F8D049B1D59A9BE00604E91 /* Main.storyboard */,
-				1F8D049E1D59A9BE00604E91 /* Assets.xcassets */,
-				1F8D04A01D59A9BE00604E91 /* LaunchScreen.storyboard */,
-				1F8D04A31D59A9BE00604E91 /* Info.plist */,
+				1F8D04C81D59B80300604E91 /* Supporting files */,
+				1F8D04C51D59B76700604E91 /* Model */,
+				1F8D04C61D59B78800604E91 /* Controller */,
+				1F8D04C71D59B7AF00604E91 /* View */,
 			);
 			path = PUSHka_iOS_v0.1;
 			sourceTree = "<group>";
@@ -123,6 +121,40 @@
 				1F8D04B91D59A9BE00604E91 /* Info.plist */,
 			);
 			path = PUSHka_iOS_v0.1UITests;
+			sourceTree = "<group>";
+		};
+		1F8D04C51D59B76700604E91 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1F8D04C61D59B78800604E91 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1F8D04991D59A9BE00604E91 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		1F8D04C71D59B7AF00604E91 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1F8D049B1D59A9BE00604E91 /* Main.storyboard */,
+				1F8D04A01D59A9BE00604E91 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		1F8D04C81D59B80300604E91 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				1F8D049E1D59A9BE00604E91 /* Assets.xcassets */,
+				1F8D04971D59A9BE00604E91 /* AppDelegate.swift */,
+				1F8D04A31D59A9BE00604E91 /* Info.plist */,
+			);
+			name = "Supporting files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
